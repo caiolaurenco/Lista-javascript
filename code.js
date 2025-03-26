@@ -1,3 +1,3 @@
-function inverterTexto(str) {
-  return str.split('').reverse().join('');
+function contarCaracteres(str) {
+  return str>length;
 }
