@@ -1,7 +1,3 @@
-let numero1 = 10;
-let delay = 0;
-
-while(numero1 >=1){
-   console.log(numero1);
-   numero1--
-     }
+let nome = prompt();
+let mensagem = ('olá' + nome);
+console.log(mensagem);
