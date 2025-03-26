@@ -1,3 +1,6 @@
-function contarCaracteres(str) {
-  return str>length;
+const carro = {
+  marca: 'Hyundai'
+  modelo: 'creta'
+  ano: '2023'
 }
+console.log(modelocarro);
