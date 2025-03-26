@@ -1,10 +1,5 @@
-let numero = prompt();
+let celsius = parseInt(prompt("digite os graus celsius"));
 
-if (numero > 0){
-  console.log("o numero é positivo")
-} else if(numero == 0 ){
-  console.log("o numero é 0 ")
-}else{
-  console.log("o numero é negativo")
-}
+let fahrenheit = (celsius * 9/5) + 32
 
+console.log("A conversão de celsuius para fahrenheit é: " + fahrenheit);
