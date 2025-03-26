@@ -1,5 +1,7 @@
-let celsius = parseInt(prompt("digite os graus celsius"));
-
-let fahrenheit = (celsius * 9/5) + 32
-
-console.log("A conversão de celsuius para fahrenheit é: " + fahrenheit);
+let soma = 0;
+let i = 1
+while (i<= 100){
+  soma = soma + i;
+  i++
+}
+console.log("A soma é: " + soma);
